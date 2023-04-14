@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/b7ad61b4f2.js" crossorigin="anonymous"></script>
+            <!-- CSS bt -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <!-- link css -->
+        <link rel="stylesheet" href="../css/styles.css">
+        <!-- tipografía -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+        <title>Contacto</title>
+    </head>
+    <body class="fondoContacto">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img src="../Images/Logo GeorgesMesa de trabajo 3.png" alt="Logo Georges"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                    <i class="fa-solid fa-bars burgerIcon"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li><a class="linkNav" href="../Pages/Camperas.html">Camperas</a></li>
+                    <li><a class="linkNav" href="../Pages/Rompevientos.html">Rompevientos</a></li>
+                    <li><a class="linkNav" href="../Pages/Anoraks.html">Anoraks</a></li>
+                      <li><i class="fa-solid fa-cart-shopping linkNav"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main class="textoMain">
+            <form>
+                <fieldset>
+                    <legend> Contactate con nosotros! </legend>
+                    <div>
+                        <label for="nombre">Completa tu nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre y apellido">
+                    </div>
+
+                    <div>
+                        <label>Dejanos tu comentario</label>
+                        <input type="text" name="comentario" placeholder="Escriba aquí su comentario...">
+                    </div>
+            
+                    <div>
+                        <label for="mail">Completa tu mail</label>
+                        <input type="email" name="mail" placeholder="georgesindumentaria@gmail.com">
+                    </div>
+            
+                    <div>
+                        <label for="provincia">Selecciona tu provincia</label>
+                        <select name="provincia" id="">
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value="Chaco">Chaco</option>
+                            <option value="Chubut">Chubut</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre Ríos">Entre Ríos</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy">Jujuy</option>
+                            <option value="La Pampa">La Pampa</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Misiones">Misiones</option>
+                            <option value="Neuquén">Neuquén</option>
+                            <option value="Río Negro">Río Negro</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="San Luis">San Luis</option>
+                            <option value="Santa Cruz">Santa Cruz</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Santiago del Estero">Santiago del Estero</option>
+                            <option value="Tierra del Fuego">Tierra del Fuego</option>
+                            <option value="Tucumán">Tucumán</option>
+                        </select>
+                    </div>
+            
+                    <div>
+                        <input type="submit" value="Envia tus datos">
+                        <input type="reset" value="Borrar todo">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a  class="linkNav" href="../Pages/Contacto.html">Contacto</a></li>
+                    <li><a class="linkNav" href="https://www.facebook.com/Georgesindumentaria" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a class="linkNav" href="https://www.instagram.com/georgesindumentaria/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </footer>
+</body>
+</html>

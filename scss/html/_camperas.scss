@@ -1,0 +1,39 @@
+.eCard-mod {
+    --bs-gutter-x: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 28rem;
+    box-shadow: 0.5rem 0.5rem 0 0 $color-sombras;
+}
+
+.card-mod-img {
+    object-fit: cover;
+    height: 20rem;
+    width: 100%;
+  }
+
+.card-body-mod{
+    background-color: gray;
+  }
+
+.btn-carrito {
+    background-color: $color-botones;
+    box-shadow: 0.2rem 0.2rem 0 0 $color-sombras;
+    color: $color-secundario;
+
+    &:hover {
+      transform: scale(1.1);
+      background-color: orangered ;
+      color: $color-secundario;
+      font-weight: 0.25rem;
+    }
+
+    &:active {
+      background-color: $color-principal;
+      color: $color-secundario;
+    }
+  }
+

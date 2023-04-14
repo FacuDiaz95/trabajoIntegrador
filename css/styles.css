@@ -1,0 +1,121 @@
+body {
+  background-image: url(../Images/DSC_2145-Editar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+
+.nuevasCamperas {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+  text-shadow: 2px 2px #202020; }
+
+.container {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 380px;
+  margin: auto; }
+
+img {
+  width: 100%; }
+
+.linkNav:hover {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #2cb6f7; }
+
+.burgerIcon {
+  color: white; }
+
+.eCard-mod {
+  --bs-gutter-x: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  width: 28rem;
+  box-shadow: 0.5rem 0.5rem 0 0 #414141; }
+
+.card-mod-img {
+  object-fit: cover;
+  height: 20rem;
+  width: 100%; }
+
+.card-body-mod {
+  background-color: gray; }
+
+.btn-carrito {
+  background-color: #2cb6f7;
+  box-shadow: 0.2rem 0.2rem 0 0 #414141;
+  color: #f3f3f3; }
+  .btn-carrito:hover {
+    transform: scale(1.1);
+    background-color: orangered;
+    color: #f3f3f3;
+    font-weight: 0.25rem; }
+  .btn-carrito:active {
+    background-color: #1d1d1d;
+    color: #f3f3f3; }
+
+.fondoContacto {
+  background-image: url(../Images/cierre.jpg);
+  background-size: cover; }
+
+.textoMain {
+  text-align: center; }
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif; }
+
+header {
+  display: flex;
+  background-color: #1d1d1d;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  width: 100%; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    header nav .logo {
+      margin-right: 2rem; }
+    header nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      font-size: 1rem; }
+      header nav ul li a {
+        color: #f3f3f3; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%; }
+
+footer {
+  background-color: #1d1d1d;
+  display: flex;
+  height: 65px;
+  background-color: #1d1d1d;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  margin-top: auto;
+  width: 100%; }
+  footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem; }
+    footer nav ul li a {
+      color: #f3f3f3; }
